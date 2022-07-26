@@ -6,6 +6,12 @@ html, body {
 
 .bloco {
     height: 100%;
+    padding-top: 94px;
+}
+
+/* COLORS */
+.blue-logo {
+    background-color: #2DC7D0;
 }
 
 /* HOME */
@@ -57,4 +63,65 @@ html, body {
     .banner h2 {
         font-size: 5rem;
     }
+}
+
+/* LOGO */
+.logo_text {
+    font-size: 0;
+    margin: 0;
+}
+
+.logo_img {
+    width: 100px;
+    margin-top: 15px;
+}
+
+
+/* CUSTOM */
+
+nav {
+    color: #fff;
+    background-color: #ee6e73;
+    width: 100%;
+    height: 94px;
+    line-height: 94px;
+  }
+
+  nav.nav-extended .nav-wrapper {
+    min-height: 94px;
+    height: auto;
+  }
+
+nav i,
+nav [class^="mdi-"], nav [class*="mdi-"],
+nav i.material-icons {
+  display: block;
+  font-size: 24px;
+  height: 94px;
+  line-height: 94px;
+}
+
+.sidenav {
+    background: url('../img/textura2.png');
+  }
+
+.sidenav li>a {
+    color: #fff;
+    font-weight: 100;
+}
+/* MENU */
+
+  .navbar-fixed {
+    position: absolute;
+    height: 94px;
+    z-index: 997;
+  }
+
+  .navbar {
+    background-color: transparent;
+  }
+
+  .navbar ul a:hover {
+    background-color: transparent;
+    color: #2DC7D0;
 }
